@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1561487-EB1A-464B-AB48-A49928EBBBCA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CS_Alphabet_App</RootNamespace>
+    <AssemblyName>CS_Alphabet_App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\apple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\banana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\cherry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\dragon fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\eggplant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\fig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\grape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\honeydaw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\iceburg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\jackfruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\kiwi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\lemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\mango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\nectarine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\pear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\quince.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\radish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\strawberry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\tomato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\ulgi fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\victoria plum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\watermelon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\ximenia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\yellow pepper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fruit\zucchini.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
