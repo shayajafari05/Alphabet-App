@@ -20,9 +20,8 @@ A fun and educational alphabet learning app built in C#, designed to help childr
 - Image resources for fruit illustrations
   
 📦 Installation
-- Clone the repository:
-git clone https://github.com/your-username/alphabet-fruit-app.git
-- - Open the solution in Visual Studio
+- Clone the repository
+ - Open the solution in Visual Studio
 - Build and run the project
 
 🧪 Usage
